@@ -1,0 +1,6 @@
+[core]
+    remote = s3
+['remote "aws"']
+    url = https://semaphore-fixtures.s3.amazonaws.com/
+['remote "s3"']
+    url = s3://semaphore-fixtures/solidity-fixtures/
